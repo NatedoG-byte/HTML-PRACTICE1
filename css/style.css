@@ -1,21 +1,27 @@
 header {
-  background-color: mistyrose;
+  background-color: rgb(11, 221, 60);
   text-align: center;
 }
 h3 {
   font-size: 30px;
-  text-align: center;
+  text-align: left;
 }
-body {
-  background-color: #f2f4f7;
+body { background-color: #3db4c4;}
+* {font-family: sans-serif;}
+img {width: 50%;border-radius: 8px;  display: block; margin: auto;}
+ol {text-align: left; }
+.footer{text-align: left;}
+.flex-container {
+  display: flex;
 }
 
-* {
-  font-family: sans-serif;
+.box {
+  background-color: lightgray;
+  padding: 20px;
+  margin: 10px;
 }
-img {
-  width: 50%;
-  border-radius: 8px;
-  display: block;
-  margin: auto;
+.box2{
+    background-color: rgba(224, 40, 169, 0.11);
+  padding: 20px;
+  margin: 10px;
 }
